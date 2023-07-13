@@ -1,8 +1,58 @@
 body {
   padding: 50px;
   font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
 }
 
 a {
   color: #00b7ff;
+}
+
+.btn {
+  margin: 3px;
+}
+
+.linkNav {
+  justify-content: flex-start !important
+}
+
+.body {
+  margin-top: 100px;
+}
+
+.btn-create {
+  /* direction: rtl; */
+  margin: 15px 3px;
+}
+
+.table {
+  width: 50%;
+  height: max-content;
+  border-collapse: collapse;
+  border: 3px solid black;
+
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 0.5rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.createDron {
+  background-color: aliceblue;
+  width: 30%;
+  padding: 50px;
+  margin-left: 30%;
+}
+
+.createDron input {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
